@@ -16,7 +16,6 @@ class Solution(object):
         prev = None
         
         while cur is not None:
-            print(head)
             left = cur
             right = cur.next
             
