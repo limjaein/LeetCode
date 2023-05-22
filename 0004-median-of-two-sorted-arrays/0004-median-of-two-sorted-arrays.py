@@ -17,6 +17,7 @@ class Solution(object):
         target = -1
         
         while True:
+            # 인덱스를 먼저 이동하기 때문에, 인덱스 예외 처리
             if r_i >= len(nums2) or (l_i < len(nums1) and nums1[l_i] < nums2[r_i]):
                 target = nums1[l_i]
                 l_i += 1
