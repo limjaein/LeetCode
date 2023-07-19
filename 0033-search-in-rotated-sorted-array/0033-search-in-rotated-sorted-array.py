@@ -4,10 +4,8 @@ class Solution(object):
             return -1
         
         mid = (s + e) / 2
-        print(nums, nums[s:e+1], mid)
         
         # 순방향
-        print(nums[s], nums[e], nums[mid])
         if nums[mid] == target:
             return mid
         
