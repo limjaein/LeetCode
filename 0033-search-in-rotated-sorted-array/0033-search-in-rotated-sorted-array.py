@@ -15,7 +15,6 @@ class Solution(object):
             else:
                 return self.binary_search(nums, mid + 1, e, target)
         else:
-            print(nums[mid],target,nums[s])
             if nums[mid] <= target < nums[s]:
                 return self.binary_search(nums, mid + 1, e, target)
             else:
